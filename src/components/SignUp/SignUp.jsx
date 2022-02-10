@@ -44,8 +44,6 @@ export default function SignUp() {
     if (handlePasswordValidation() === true) {
       setShowSuccessAlert(true);
     }
-
-    console.log("Submitted : ", email, password);
   };
 
   return (
