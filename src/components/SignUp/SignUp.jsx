@@ -10,8 +10,6 @@ export default function SignUp() {
     useState(false);
   const [showSuccessAlert, setShowSuccessAlert] = useState(false);
 
-  console.table([email, password, confirmPassword]);
-
   const handlePasswordValidation = () => {
     if (password === confirmPassword) {
       return true;
