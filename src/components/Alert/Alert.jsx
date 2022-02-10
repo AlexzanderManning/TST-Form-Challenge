@@ -1,15 +1,6 @@
 import { Transition } from "@headlessui/react";
 
 export default function Alert({showAlert, success, children}) {
-
-  // function closeModal() {
-  //   setIsOpen(false);
-  // }
-
-  // function openModal() {
-  //   setIsOpen(true);
-  // }
-
   return (
     <Transition
       show={showAlert}
